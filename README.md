@@ -32,7 +32,16 @@ For the purpose of solving the exercise we will define the following structures:
 * The AllEquations structure - which represents the entire system of equations, holds an array of pointers for Equation.
 * The Solver structure - which unites all the equations for the coefficient matrix A and vector B. 
     Explanation: A_Mat is an array of rows the size of the number of equations and in each cell retains the address of array A of the corresponding equation. Note: It is not         necessary copy vector A of each equation. B_Vec is an array with a large number of equations that holds the coefficients B of each equation.
-    
+
+### Output For Example
+![image](https://user-images.githubusercontent.com/74857750/149558353-30f17e71-4661-46d1-820e-af3a30fc7537.png)
+
+![image](https://user-images.githubusercontent.com/74857750/149558430-a6775e80-3feb-433c-94a3-bc028b974ac3.png)
+
+![image](https://user-images.githubusercontent.com/74857750/149558444-aae5b3f9-83a4-4ee8-bbec-24319ac3e154.png)
+
+![image](https://user-images.githubusercontent.com/74857750/149558475-a3744146-e59d-4ba5-acfc-cbe4ffe78d56.png)
+
 
 ## How To Run
 
