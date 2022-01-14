@@ -30,7 +30,8 @@ Legality Input Equation:
 For the purpose of solving the exercise we will define the following structures:
 * The Equation structure - which represents a single equation. Coefficient line A and free value B.
 * The AllEquations structure - which represents the entire system of equations, holds an array of pointers for Equation.
-* The Solver structure - which unites all the equations for the coefficient matrix A and vector B. Explanation: A_Mat is an array of rows the size of the number of equations and in each cell retains the address of array A of the corresponding equation. Note: It is not necessary copy vector A of each equation. B_Vec is an array with a large number of equations that holds the coefficients B of each equation.
+* The Solver structure - which unites all the equations for the coefficient matrix A and vector B. 
+    Explanation: A_Mat is an array of rows the size of the number of equations and in each cell retains the address of array A of the corresponding equation. Note: It is not         necessary copy vector A of each equation. B_Vec is an array with a large number of equations that holds the coefficients B of each equation.
     
 
 ## How To Run
