@@ -18,14 +18,14 @@ Legality Input Equation:
 * The length of each equation should not exceed 80 characters.
 * As part of the equation receiver the user can tap spaces, these characters should be ignored. 
 * It can be assumed that the input of the equations will be correct: 
-1. A set of equations which contains one missing equation is x. 
-2. A set of equations which contains two vanishing equations are x, y.
-3.System of equations which contains three vanishing equations are x, y, z.
-4. No need to perform a string input test.
+    1. A set of equations which contains one missing equation is x. 
+    2. A set of equations which contains two vanishing equations are x, y.
+    3.System of equations which contains three vanishing equations are x, y, z.
+    4. No need to perform a string input test.
 * It can be assumed that the input of the equation will be as follows: 
-1. The left side of the equation contains the coefficients a, b, c and the variables x, y, z depending on the number of equations.
-2. The right side of the equation will contain only the free limb d.
-3. The variables x, y, z will appear only as lowercase letters oThere will be no need to perform complex arithmetic operations
+    1. The left side of the equation contains the coefficients a, b, c and the variables x, y, z depending on the number of equations.
+    2. The right side of the equation will contain only the free limb d.
+    3. The variables x, y, z will appear only as lowercase letters oThere will be no need to perform complex arithmetic operations
 
 ## How To Run
 
